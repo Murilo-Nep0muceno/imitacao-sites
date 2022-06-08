@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Poppins ;
+    font-size: 1rem;
+    color: white;
+}
+
+body{
+    background: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-height: 52.875rem;
+      
+}
+
+img{
+    width: 140px;
+    height: 140px;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+#menu a:hover{
+   color:#1ed760 ; 
+}
+
+
+#logo{
+    font-size: 1.4rem;
+    padding-right: 3rem;
+}
+
+.header{
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4.5rem;
+}
+
+#menu{
+    display: flex;
+}
+
+#menu li {
+    padding-left: 10px;
+
+}
+  
+#menu li a {
+    display: block;
+    padding: 10px;
+
+}
+
+#menu #perfil{
+    display: block;
+    padding-left: 3rem;
+}
+
+
+
+#section h1 {
+    color: #1ed760;
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
+    word-break: break-word;
+}
+
+
+
+#section p {
+    color: #1ed760;
+    text-align: center;
+}
+
+
+#section div h1 {
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    margin-top: 18rem;
+    padding: 0 6rem ;
+    z-index: 1000;
+}
+
+#section h1 {
+    padding: 0 6rem ;
+}
+
+button{
+    position: relative;
+    width: 250px;
+    margin-top: 2rem;
+    background: #1ed760;
+    color:rgb(41, 65, 171) ;
+    padding: .5rem;
+    border-radius: 3rem ;
+    border: none;
+    cursor: pointer;
+}
+
+#btn {
+    text-align: center;
+}
+
+#rodape{
+    background: black;
+    margin-top: 26rem;
+    display: block;
+}
+
+#rodape img{
+    margin-left: 19rem;
+}
+
+#empresa  div {
+    display: flex;
+
+}
+
+#empresa {
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+#sobre ul{
+    padding-bottom:5rem ;
+}
